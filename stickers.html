@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Stickers</title>
+</head>
+<body>
+    <main>
+        <div style="text-align: center;">
+            <h1>Stickers</h1>
+        </div>
+        <br>
+        <div style="text-align: center;">
+            <h2>Ingresa la cantidad de stickers que deseas (MÁXIMO 10!)</h2>
+        <div class="img-container">
+            
+            <div class ="sticker">
+                <img src="assets/img/crash.jpg" alt="crash" id="image">
+                <input type="number" id="sticker1" placeholder="Ingrese cantidad">
+            </div>
+            <div class="sticker">
+                <img src="assets/img/mario.jpg" alt="mario" id="image">
+                <input type="number" id="sticker2" placeholder="Ingrese cantidad">
+            </div>
+            <div class="sticker">
+                <img src="assets/img/sonic.webp" alt="sonic" id="image">
+                <input type="number" id="sticker3" placeholder="Ingrese cantidad">
+            </div>
+            
+        </div>
+        <br>
+        <div style="text-align: center;">
+            <p id = "parrafoSticker"></p>
+            <button id="calculateStickers" onclick="calculateTotalSticker()">Guardar Stickers</button>
+        </div>
+        <br>
+        <footer style="text-align: center;"></footer>
+            <a href="index.html" style="margin-right: 20px;">Volver</a>
+            <a href="password.html">Ir a select password</a>
+        </footer>
+
+        
+    </main>
+    <script src="assets/js/stickers.js"></script>
+</body>
+</html>

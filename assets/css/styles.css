@@ -2,5 +2,26 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
 
+.img-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #f1f1f1;
+}
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.img-container img{
+    width: 500px;
+    height: 400px;
+    object-fit: fill;
 }
